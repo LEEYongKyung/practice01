@@ -12,4 +12,9 @@ s = """
 1 x 9 = 9	2 x 9 = 18	3 x 9 = 27	4 x 9 = 36	5 x 9 = 45	6 x 9 = 54	7 x 9 = 63	8 x 9 = 72	9 x 9 = 81
 """
 
-print(s)
+# print(s)
+
+for sec in range(1,10):
+    for fir in range(1,10):
+        print('{} X {} = {} \t'.format(fir,sec,(fir*sec)),end='\t')
+    print('\n')
